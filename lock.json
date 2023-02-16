@@ -319,6 +319,7 @@
     "https://deno.land/x/dotenv@v3.2.0/load.ts": "cbd76a0aee01aad8d09222afaa1dd04b84d9d3e44637503b01bf77a91df9e041",
     "https://deno.land/x/dotenv@v3.2.0/mod.ts": "077b48773de9205266a0b44c3c3a3c3083449ed64bb0b6cc461b95720678d38e",
     "https://deno.land/x/dotenv@v3.2.0/util.ts": "693730877b13f8ead2b79b2aa31e2a0652862f7dc0c5f6d2f313f4d39c7b7670",
+    "https://esm.sh/chatgpt@4.4.0": "19a99c412be71eff72e1a0341c8db64fa86fd4c63eea57a85c74ef5cec751046",
     "https://esm.sh/chatgpt@4.4.1": "3a0d53703d81a40c4c89b888a8809963127306d974928822d677cc689936e46d",
     "https://esm.sh/lodash@4.17.21": "974e200b58214c3077cce0c4c89ccd6134f3a31af2646ae503bcb8a15aeb7812",
     "https://esm.sh/node-telegram-bot-api@0.61.0": "b064427f8295d5bf7f7830777b8822798974106e24fb838140e0eae101b956c8",
@@ -370,6 +371,8 @@
     "https://esm.sh/v106/call-bind@1.0.2/deno/call-bind.js": "0eade6e8f9d7f3d5e2173e663c400438571fcea09e8b0b5e01a1efd0c8164685",
     "https://esm.sh/v106/call-bind@1.0.2/deno/callBound.js": "200a912ca938229e0b301c74bc5e0821c3950d1f94495e6dac9ab52fb0f3f553",
     "https://esm.sh/v106/caseless@0.12.0/deno/caseless.js": "ec2c88024fc7adeba275a54a7ab760716c92d710853b150daa4a57015e0cc0dc",
+    "https://esm.sh/v106/chatgpt@4.4.0/build/index.d.ts": "4ae1e3417d75f78addb71d313463b133672ba250d42957f4612126521df2ae7b",
+    "https://esm.sh/v106/chatgpt@4.4.0/deno/chatgpt.js": "57c8b302cc7deba4d7130ff96731ce68bc2ac39e236b0d8507f07beba8be12fc",
     "https://esm.sh/v106/chatgpt@4.4.1/build/index.d.ts": "4ae1e3417d75f78addb71d313463b133672ba250d42957f4612126521df2ae7b",
     "https://esm.sh/v106/chatgpt@4.4.1/deno/chatgpt.js": "da68bf723091c3bc0ff872f0239ed7ab5486bd80fa67bd37302225390471c9e4",
     "https://esm.sh/v106/combined-stream@1.0.8/deno/combined-stream.js": "26a5063d9a8e2965c92c827d6c3e92fe118ff50a428d4697207008b1571f91aa",
@@ -514,7 +517,9 @@
     "specifiers": {
       "@types/node-telegram-bot-api@^0.57.6": "@types/node-telegram-bot-api@0.57.7",
       "chatgpt@4.4.0": "chatgpt@4.4.0",
+      "lodash@4.17.21": "lodash@4.17.21",
       "lodash@^4.17.21": "lodash@4.17.21",
+      "node-telegram-bot-api@0.60.0": "node-telegram-bot-api@0.60.0_request@2.88.2",
       "node-telegram-bot-api@^0.60.0": "node-telegram-bot-api@0.60.0_request@2.88.2"
     },
     "packages": {

@@ -1,9 +1,9 @@
 
 import _ from "npm:lodash@4.17.21"
-import { ChatGPTAPI, ChatMessage } from "npm:chatgpt@4.4.0"
+import { ChatGPTAPI, ChatMessage } from "npm:chatgpt@4.4.1"
 // @deno-types="npm:@types/node-telegram-bot-api@^0.57.6"
 import TelegramBot from "npm:node-telegram-bot-api@0.60.0"
-
+import "https://deno.land/x/dotenv@v3.2.0/load.ts"
 const BOT_TOKEN = Deno.env.get("BOT_TOKEN")
 const OPENAI_API_KEY = Deno.env.get("OPENAI_API_KEY")
 
