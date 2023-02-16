@@ -4,4 +4,4 @@ export {
     post,
     redirect,
     contentType,
-  } from "https://denopkg.com/syumai/dinatra/mod.ts";
+  } from "https://denopkg.com/syumai/dinatra@master/mod.ts";
