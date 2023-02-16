@@ -14,7 +14,6 @@ if (!BOT_TOKEN || !OPENAI_API_KEY) {
     logWithTime("⛔️ BOT_TOKEN and OPENAI_API_KEY must be set")
     Deno.exit(1)
 }
-
 // Start telegram bot
 
 const bot = new TelegramBot(BOT_TOKEN, { polling: true })
