@@ -517,6 +517,7 @@
     "specifiers": {
       "@types/node-telegram-bot-api@^0.57.6": "@types/node-telegram-bot-api@0.57.7",
       "chatgpt@4.4.0": "chatgpt@4.4.0",
+      "chatgpt@4.4.1": "chatgpt@4.4.1",
       "lodash@4.17.21": "lodash@4.17.21",
       "lodash@^4.17.21": "lodash@4.17.21",
       "node-telegram-bot-api@0.60.0": "node-telegram-bot-api@0.60.0_request@2.88.2",
@@ -625,6 +626,17 @@
       },
       "chatgpt@4.4.0": {
         "integrity": "sha512-rS1F423hR5marIB7hvZ4KyczK9oFloWY+AR4WKIt+HLyiRgOOWv6V4olu1HvaoOayc5+A/N2WwX0SzuU1rI9Rg==",
+        "dependencies": {
+          "eventsource-parser": "eventsource-parser@0.0.5",
+          "gpt-3-encoder": "gpt-3-encoder@1.1.4",
+          "keyv": "keyv@4.5.2",
+          "p-timeout": "p-timeout@6.1.1",
+          "quick-lru": "quick-lru@6.1.1",
+          "uuid": "uuid@9.0.0"
+        }
+      },
+      "chatgpt@4.4.1": {
+        "integrity": "sha512-rccShNzq/aE4LMmwTW4IOHIAZgNRbX0KetVKRCdR4SkRXz63FWzOfu8pNbaN65gsvvXwXyRzD7W4LLDyXe4TYg==",
         "dependencies": {
           "eventsource-parser": "eventsource-parser@0.0.5",
           "gpt-3-encoder": "gpt-3-encoder@1.1.4",
