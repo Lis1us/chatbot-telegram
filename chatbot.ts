@@ -1,6 +1,6 @@
 
 import _ from "https://doc.deno.land/https://esm.sh/v106/@types/lodash@4.14.191/index.d.ts"
-import { ChatGPTAPI, ChatMessage } from "https://doc.deno.land/https://esm.sh/v106/chatgpt@4.4.0/build/index.d.ts";
+import { ChatGPTAPI, ChatMessage } from "https://esm.sh/v106/chatgpt@4.4.0";
 // @deno-types="npm:@types/node-telegram-bot-api@^0.57.6"
 import TelegramBot from "https://esm.sh/node-telegram-bot-api@0.60.0"
 
