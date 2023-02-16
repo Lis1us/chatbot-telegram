@@ -5,7 +5,6 @@ import _ from "https://esm.sh/v106/@types/lodash@4.14.191"
 import { ChatGPTAPI, ChatMessage } from "https://esm.sh/v106/chatgpt@4.4.0";
 // @deno-types="npm:@types/node-telegram-bot-api@^0.57.6"
 import TelegramBot from "https://esm.sh/node-telegram-bot-api@0.60.0"
-
 import "https://deno.land/x/dotenv@v3.2.0/load.ts"
 
 const BOT_TOKEN = Deno.env.get("BOT_TOKEN")
