@@ -1,5 +1,5 @@
 
-import _ from "https://esm.sh/lodash@4.17.21"
+import _ from "https://deno.land/x/lodash@4.17.19"
 
 
 import { ChatGPTAPI, ChatMessage } from "https://esm.sh/chatgpt@4.4.0";
