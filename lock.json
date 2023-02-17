@@ -556,6 +556,7 @@
       "lodash@4.17.21": "lodash@4.17.21",
       "lodash@^4.17.21": "lodash@4.17.21",
       "node-telegram-bot-api@0.60.0": "node-telegram-bot-api@0.60.0_request@2.88.2",
+      "node-telegram-bot-api@0.61.0": "node-telegram-bot-api@0.61.0_request@2.88.2",
       "node-telegram-bot-api@^0.60.0": "node-telegram-bot-api@0.60.0_request@2.88.2"
     },
     "packages": {
@@ -1117,6 +1118,20 @@
       },
       "node-telegram-bot-api@0.60.0_request@2.88.2": {
         "integrity": "sha512-SBI2PjfCAfMVuieQb95GBvaWiprRdk5SKfzX6B6G2ciG7J4SjOVwaMvaYhm9dJDTqvRSzl5pbioGbqRO/vx1Zg==",
+        "dependencies": {
+          "array.prototype.findindex": "array.prototype.findindex@2.2.1",
+          "bl": "bl@1.2.3",
+          "debug": "debug@3.2.7",
+          "eventemitter3": "eventemitter3@3.1.2",
+          "file-type": "file-type@3.9.0",
+          "mime": "mime@1.6.0",
+          "pump": "pump@2.0.1",
+          "request": "request@2.88.2",
+          "request-promise": "request-promise@4.2.6_request@2.88.2"
+        }
+      },
+      "node-telegram-bot-api@0.61.0_request@2.88.2": {
+        "integrity": "sha512-BZXd8Bh2C5+uBEQuuI3FD7TFJF3alV+6oFQt8CNLx3ldX/hsd+NYyllTX+Y+5X0tG+xtcRQQjbfLgz/4sRvmBQ==",
         "dependencies": {
           "array.prototype.findindex": "array.prototype.findindex@2.2.1",
           "bl": "bl@1.2.3",

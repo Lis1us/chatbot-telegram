@@ -2,7 +2,7 @@
 import _ from "npm:lodash@4.17.21"
 import { ChatGPTAPI, ChatMessage } from "npm:chatgpt@4.4.1"
 // @deno-types="npm:@types/node-telegram-bot-api@^0.57.6"
-import TelegramBot from "npm:node-telegram-bot-api@0.60.0"
+import TelegramBot from "npm:node-telegram-bot-api@0.61.0"
 import "https://deno.land/x/dotenv@v3.2.0/load.ts"
 const BOT_TOKEN = Deno.env.get("BOT_TOKEN")
 const OPENAI_API_KEY = Deno.env.get("OPENAI_API_KEY")
@@ -50,14 +50,14 @@ function handleCommand(msg: TelegramBot.Message): boolean {
     if (trimedText === "/reload" || trimedText == "/reset") {
         conversationID = undefined
         parentMessageID = undefined
-        bot.sendMessage(msg.chat.id, "🔄 Conversation has been reset, enjoy!")
-        logWithTime("🔄 Conversation has been reset")
+        bot.sendMessage(msg.chat.id, "🔄 Диалог сброшен!")
+        logWithTime("🔄 Диалог сброшен.")
         return true
     }
 
     // help command
     if (trimedText === "/help") {
-        bot.sendMessage(msg.chat.id, "🤖 This is a chatbot powered by ChatGPT. You can use the following commands:\n\n/reload - Reset the conversation\n/help - Show this message")
+        bot.sendMessage(msg.chat.id, "🤖 Это бот на основе ChatGPT. Доступные команды:\n\n/reload - начать диалог заного\n/help - показать это сообщение;)")
         return true
     }
     return false
@@ -123,9 +123,9 @@ async function handleMessage(msg: TelegramBot.Message) {
         logWithTime("⛔️ ChatGPT API error:", err.message)
         // If the error contains session token has expired, then get a new session token
         if (err.message.includes("session token may have expired")) {
-            bot.sendMessage(chatId, "🔑 Token has expired, please update the token.")
+            bot.sendMessage(chatId, "🔑 Истек срок токена, обновите.")
         } else {
-            bot.sendMessage(chatId, "🤖 Sorry, I'm having trouble connecting to the server, please try again later.")
+            bot.sendMessage(chatId, "🤖 Ой, что-то пошло не так, попробуйте позже.")
         }
     }
 }
